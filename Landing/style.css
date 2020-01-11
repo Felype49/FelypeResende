@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #f5f5f5;
+    margin: 0px;
+}
+
+#header {
+    background-image: url("capa.jpg");
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
+
+#header a {
+    color: #3fc1c9;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+    border: 2px;
+}
+
+#header h1 {
+    color: #3fc1c9;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px;
+    text-shadow: 1px 1px 2px #fc5185;
+    margin-bottom: 20px;
+}
+
+#header h2 {
+    color: #3fc1c9;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #fc5185;
+    padding: 15px;
+    padding-bottom: 200px;
+}
+
+.jumbotron {
+    background-color: #f5f5f5;
+    background-size: cover;
+    margin-top: -8px;
+    padding: 90px;
+}
+
+#rodape {
+    padding: 17px;
+    background: #364f6b;
+    color: #3fc1c9;
+}
+
+#rodape a {
+    color: #3fc1c9;
+    font-size: 20px;
+} 
+#rodape a:hover {
+    color: white;
+}
+
+.contato {
+    background-color: #3fc1c9;
+    background-size: cover;
+}
+
+.contato h2 {
+    color: #364f6b;
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.form {
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
