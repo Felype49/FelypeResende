@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="uft-8">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <a class="btn btn-outline-light" href="#" role="button">Início</a>
+            <a class="btn btn-outline-light" href="#" role="button">Produtos</a>
+            <h1>Landing Page</h1>
+            <h2>Start Up</h2>
+        </div>
+
+        <div class="jumbotron">
+            <h1 class="display-6">Inovador</h1>
+            <p class="lead">Empresa ganha prêmio de produto inovação do ano no quesito tecnologia,<br>com seu novo hardware que promete surpreender todo o mercado.</p>
+            <hr class="my-4">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
+        </div> 
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="images/rapido.png" alt="picture description" width="100">
+                    <h2>Rápido</h2>
+                    <p>Uma velocidade de processamento <strong>ultra rápida.</strong></p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="images/memoria.png" alt="picture description" width="100">
+                    <h2>Inovador</h2>
+                    <p>Microprocessador de <strong>última geração.</strong></p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="images/barato.png" alt="picture description" width="100">
+                    <h2>Barato</h2>
+                    <p>Tem um preço <strong>super acessível.</strong></p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="images/economico.png" alt="picture description" width="100">
+                    <h2>Economico</h2>
+                    <p>Possui alto rendimento utilizando <strong>pouca bateria.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contato">
+            <h2>Fale conosco</h2>
+            <form class="form" method="POST" action="processa.php">
+                <div class="form-group col-md-6">
+                    <input type="field" class="form-control" id="exampleInputName1" name="name" placeholder="Nome completo">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Seu E-mail">
+                </div>
+                <div class="form-group col-md-6">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" placeholder="Digite sua mensagem aqui" cols="18" rows="8"></textarea>
+                </div>
+                <div class="col-md-6">
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+        
+        <div id="rodape">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></liclass="list-inline-item">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <p>© 2020 Empresa X, Inc.</p>
+        </div>
+    </body>
+</html>
